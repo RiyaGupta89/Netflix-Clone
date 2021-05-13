@@ -1,0 +1,31 @@
+.logos {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.bg-black {
+    background-color: #111;
+    height: 70px;
+}
+
+.netflix {
+    object-fit: contain;
+    width: 80px;
+    position: fixed;
+    left: 20px;
+}
+
+.logo {
+    object-fit: contain;
+    width: 30px;
+    position: fixed;
+    right: 20px;
+}
